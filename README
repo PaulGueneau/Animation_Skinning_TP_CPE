@@ -1,1 +1,19 @@
-Ajouter ici le dossier 'extern' contenant le dossier glew.
+1) To compile and execute from the Makefile
+
+cd projet
+make
+./pgm
+
+2) To compile and execute from the CMakelists.txt
+
+mkdir build
+cd build
+cmake ..
+make
+cd ../projet
+../build/pgm
+
+3) For those who use IDE (QtCreator, etc).
+
+The executing folder must be in projet/
+That means the folder data/ must be accessible.
